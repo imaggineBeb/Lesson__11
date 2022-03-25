@@ -1,0 +1,118 @@
+/* Обнуление */
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap");
+
+/* -------------------------------------------------------------------- */
+
+body {
+	font-family: "Roboto";
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ---------------------------------HEADER------------------------------ */
+.header {
+}
+.header__image {
+}
+.header__item {
+	width: 100%;
+}
+/* ---------------------------------MAIN------------------------------ */
+.main {
+}
+.main__container {
+	margin: 0 auto;
+	max-width: 1020px;
+}
+.who-we-are {
+	position: relative;
+	margin: -80px 0 0 0;
+	min-height: 700px;
+	background: #5d62b5;
+	border-radius: 40px;
+}
+.who-we-are::before {
+	content: "";
+	position: absolute;
+	right: -76px;
+	top: -109px;
+	width: 201px;
+	height: 317px;
+	background: url("../img/Stylize Circles.svg") 0 0 no-repeat;
+}
+.who-we-are::after {
+	content: "";
+	position: absolute;
+	width: 665px;
+	height: 591px;
+	top: 255px;
+	left: -15px;
+	background: url("../img/Blob.png") 0 0 no-repeat;
+}
+.who-we-are__container {
+	padding: 100px 87px 0px 87px;
+}
+.who-we-are__content {
+	max-width: 846px;
+	/* margin: 0px 87px; */
+}
+.who-we-are__subtitle {
+	margin: 0px 0px 33px 0px;
+}
+.subtitle {
+	font-size: 12px;
+	line-height: 200%;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #f5f5f5;
+	position: relative;
+}
+.subtitle__item {
+	font-weight: 700;
+	padding: 0 0 0 32px;
+}
+.subtitle__item::before {
+	content: "";
+	position: absolute;
+	top: -2px;
+	left: 0;
+	width: 28px;
+	height: 27px;
+	background: url("../img/Mark.svg") 0 0 no-repeat;
+}
+.who-we-are__title {
+	margin: 0px 0px 36px 0px;
+}
+.title {
+	font-size: 36px;
+	line-height: 117%;
+	color: #ffffff;
+}
+.title__item {
+	font-weight: 900;
+}
+.who-we-are__text {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #f5f5f5;
+}
+/* ---------------------------------FOOTER------------------------------ */
+.footer {
+}
+.footer__container {
+	max-width: 846px;
+	margin: 0 auto;
+}
+.footer__image {
+	position: relative;
+	bottom: 300px;
+	z-index: 2;
+}
+.footer__item {
+	box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
+	border-radius: 40px;
+}
